@@ -1,3 +1,9 @@
+### nostr misconceptions and FAQ
+The purpose of these questions is to anticipate dev and non-dev questions & pushback, as they are in the early stages of discovering nostr. The questions have been distributed to nostr devs, and non-devs, so that we have a sampling of answers that may help assuage nostr newcomer uncertainty and uneasiness. 
+
+### questions
+
+
 1. Do I have to paste my key everywhere?, isn't that unsafe?
 2. Why can't I create subkeys or rotate my key?
 3. How do I lend my key so others can sign with it on my behalf?
