@@ -6,6 +6,9 @@
 6. Nostr doesn't have discovery!
 7. Nostr is a nazi bar because we can't censor bad actors, criminals, spammers, scammers, stalkers, harassers!
 8. Nostr is for crypto-bros only
+9. Is there a nostr wiki?
+10. Is there a SDK with some easy to customize demos?
+11. How can my community/website/product join nostr?
 
 
 
