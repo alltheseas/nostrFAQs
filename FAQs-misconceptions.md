@@ -1,5 +1,5 @@
 ### nostr misconceptions and FAQ
-The purpose of these questions is to anticipate dev and non-dev questions & pushback, as they are in the early stages of discovering nostr. The questions have been distributed to nostr devs, and non-devs, so that we have a sampling of answers that may help assuage nostr newcomer uncertainty and uneasiness. 
+The purpose of these questions is to anticipate dev and non-dev questions & pushback, as they are in the early stages of discovering nostr. The questions have been distributed to nostr devs, and non-devs, so that we have a sampling of answers that may help assuage nostr newcomer uncertainty and uneasiness. These questions and the provided answers will be hosted on a website somewhere by @fiatjaf. Maybe nostr github repo will link to this website.
 
 ### questions
 
