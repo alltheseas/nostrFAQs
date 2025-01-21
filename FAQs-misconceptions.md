@@ -15,6 +15,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 9. Is there a nostr wiki?
 10. Is there a SDK with some easy to customize demos?
 11. How can my community/website/product join nostr?
+12. This sounds like another VC funded "protocol" in Bluesky, or Farcaster. How does nostr protect from the ensuing enshittification?
+13. How does nostr elude capture by a well funded VC company?
 
 
 
