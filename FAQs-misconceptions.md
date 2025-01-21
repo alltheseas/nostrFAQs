@@ -11,6 +11,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `No, you don't have to, but many clients allow you to do so out of ease of use. If the client supports using something called Amber, or a Remote Signer, or a browser extension, I would recommend you to use those instead as they are more secure and help keep your private key safe. It's not recommended to paste your key into unkown or new applications. It is okay to generate burner or new keys to try things out.` -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`No, but it depends on the platform and app used. Most mobile apps default to key pasting, and some offer to back them up in the user's cloud storage. On desktop it's recommended to use a browser extension that stores the private key allowing the user to sign events. Pasting a private key into a malicious app, or accidentally pasting it publicly will compromise the key permanently. There are also remote signing methods, but there is a steeper learning curve for users who are only accustomed to traditional login methods.` -[The: Daniel](https://njump.me/npub1aeh2zw4elewy5682lxc6xnlqzjnxksq303gwu2npfaxd49vmde6qcq4nwx) 
+
 </details>
 
 <details>
