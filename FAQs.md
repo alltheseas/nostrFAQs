@@ -5,5 +5,7 @@
 5. If there is no Blockchain, no DHT, no central directory then how do I find out in which relay a given key is publishing their events to?
 6. Nostr doesn't have discovery!
 7. Nostr is a nazi bar because we can't censor bad actors, criminals, spammers, scammers, stalkers, harassers!
+8. Nostr is for crypto-bros only
+
 
 
