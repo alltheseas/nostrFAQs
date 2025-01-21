@@ -73,6 +73,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `There is the potential for this, but I feel that user controls, user tools, and community moderations via Web of Trust and reporting can resole a lot of these issues. `-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`Nostr is different than centralized networks because the user is entirely in control of the content they choose to see. By using whitelisted relays and mute lists, users can avoid interacting with spammers and other users who post content they object to. It's true that anyone with a valid key can use the network, but this also provides censorship resistance for everyone. In addition, the difficulty of permanently deleting content may also decrease the likelihood of Nostr being used by bad actors.` -[The: Daniel](https://njump.me/npub1aeh2zw4elewy5682lxc6xnlqzjnxksq303gwu2npfaxd49vmde6qcq4nwx) 
+
 </details>
 
 <details>
