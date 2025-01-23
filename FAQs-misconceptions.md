@@ -13,6 +13,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `No, but it depends on the platform and app used. Most mobile apps default to key pasting, and some offer to back them up in the user's cloud storage. On desktop it's recommended to use a browser extension that stores the private key allowing the user to sign events. Pasting a private key into a malicious app, or accidentally pasting it publicly will compromise the key permanently. There are also remote signing methods, but there is a steeper learning curve for users who are only accustomed to traditional login methods.` -[The: Daniel](https://njump.me/npub1aeh2zw4elewy5682lxc6xnlqzjnxksq303gwu2npfaxd49vmde6qcq4nwx) 
 
+`You can paste your nsec into various applications, but if you're concerned about security, you probably shouldn't. Alternatively, you can use a bunker, which is an application that holds your nsec and signs events with it (e.g. Amber).` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
+
 </details>
 
 <details>
@@ -22,6 +24,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `Complexity. Creating subkeys is easy, but supporting subkeys and by extension permissions and key rotation in all clients is almost impossible.` -[hzrd149](https://github.com/hzrd149/)
 
 `People smarter than me have said that this is too hard to implement. I wish that we had this feature. It would make things easier for the inevitable happens for most people.` -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
+
+`You can generate subkeys from your master key (see NIP 6). Rotating a key means communicating to the world in a non-ambiguous way what your next key will be. In the case of a hack, this can lead to race conditions (e.g. the hacker and you try to rotate the key at the same time). Today, there are no good ways to solve such race conditions other than anchoring on a blockchain. However, in the future, with Frost and the like (I think), you'll be able to have a threshold of keys. If at least m out of n keys sign, then the signature is valid (say 2 out of 3). If you lose one of the keys, you can create a new set of keys corresponding to the old public key, so rotating keys is not necessary.
+` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
 </details>
 
@@ -33,6 +38,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `You utilize something called a Remote Signer or an nsecbunker application with poligicies and key management features. These include tools such as Amber, NAK, Keycast, or Knox. `
 -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`with bunkers (currently many work like shit)` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
+
 </details>
 
 <details>
@@ -42,6 +49,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `Yes, large data and connection speeds tend to cause centralization. however the data itself (events) is cryptographically signed so its possible for it to live on multiple servers and still be verifiable. This does not prevent centralization it only ensures that the authenticity of the data is no longer tied to the server it came from` -[hzrd149](https://github.com/hzrd149/)
 
 `This is a common misconception. The Outbox and Inbox model fixes this, enabling users from all around the world to all run their very own relays and still be able to communicate toghether. For this to happen, all clients need to upgrade to NIP-65 to enable Outbox/Inbox models. I feel that we'll end up having a plethora of family relays, community relays, making nostr much more decentralized and sustainable.`-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
+
+`The fiatjaf analogy holds: relays are like websites, and not everyone visits the same websites. If anything, direct monetization with bitcoin allows smaller relays to thrive.` --[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
 </details>
 
@@ -53,6 +62,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `I would look at a user's profile and see which relays they're using, but this also can be a bit confusing, because clients don't always surface this information easily, confusing profile relays and Outbox relays. Plus, anyone can broadcast an event to any public relay.` -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`You can ask some specialized relays, but the question is backwards. If you want to find the events of an npub, it's because you have have already seen some of the contents of the npub, and already know the npub, which means you have had contact with it before. Why else would you want to find the events of a random string?` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
+
 </details>
 
 <details>
@@ -62,6 +73,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 ` Follow random people, ask more questions. nostr isn't curated like other platforms and wont automatically serve you the content you want to see, you have to go find it` -[hzrd149](https://github.com/hzrd149/)
 
 `At the protocol level, Nostr does not have discovery, that is correct. However, many clients are working on various forms of user discovery such as trending topics, trending users, trending notes, Web of Trust, various feed algorithms, and more. If your client doesn't have user and content discovery, then you should check out one of the clients that do.`-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
+
+`It does.` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
 </details>
 
