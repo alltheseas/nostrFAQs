@@ -15,6 +15,8 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `You can paste your nsec into various applications, but if you're concerned about security, you probably shouldn't. Alternatively, you can use a bunker, which is an application that holds your nsec and signs events with it (e.g. Amber).` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
+`Use a browser extension. Some remote signer apps like Amber also work but some others are hard to use, do not give you full control over access policies and have subpar code quality` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
 </details>
 
 <details>
@@ -28,6 +30,10 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `You can generate subkeys from your master key (see NIP 6). Rotating a key means communicating to the world in a non-ambiguous way what your next key will be. In the case of a hack, this can lead to race conditions (e.g. the hacker and you try to rotate the key at the same time). Today, there are no good ways to solve such race conditions other than anchoring on a blockchain. However, in the future, with Frost and the like (I think), you'll be able to have a threshold of keys. If at least m out of n keys sign, then the signature is valid (say 2 out of 3). If you lose one of the keys, you can create a new set of keys corresponding to the old public key, so rotating keys is not necessary.
 ` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
+`There is no reason except that no one wants to start implementing it because it’s “too complex”, and the amount of NIP bikeshedding.
+` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -39,6 +45,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
 `with bunkers (currently many work like shit)` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
+
+`Remote signers. Most do not allow fine grained access policies though.` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
 
 </details>
 
@@ -52,6 +61,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `The fiatjaf analogy holds: relays are like websites, and not everyone visits the same websites. If anything, direct monetization with bitcoin allows smaller relays to thrive.` --[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
+`Doesn’t matter because people can switch relays and migrate their data easily` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -63,6 +75,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `I would look at a user's profile and see which relays they're using, but this also can be a bit confusing, because clients don't always surface this information easily, confusing profile relays and Outbox relays. Plus, anyone can broadcast an event to any public relay.` -[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
 `You can ask some specialized relays, but the question is backwards. If you want to find the events of an npub, it's because you have have already seen some of the contents of the npub, and already know the npub, which means you have had contact with it before. Why else would you want to find the events of a random string?` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
+
+`Large directories and from existing relays.` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
 
 </details>
 
@@ -76,6 +91,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `It does.` -[pip](https://njump.me/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup)
 
+`Discovery is a not very hard to solve problem that most devs do not prioritize, because it isn’t a problem for them.` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -88,6 +106,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `Nostr is different than centralized networks because the user is entirely in control of the content they choose to see. By using whitelisted relays and mute lists, users can avoid interacting with spammers and other users who post content they object to. It's true that anyone with a valid key can use the network, but this also provides censorship resistance for everyone. In addition, the difficulty of permanently deleting content may also decrease the likelihood of Nostr being used by bad actors.` -[The: Daniel](https://njump.me/npub1aeh2zw4elewy5682lxc6xnlqzjnxksq303gwu2npfaxd49vmde6qcq4nwx) 
 
+`7. Relays are responsible for moderation, and most relays don’t care until they are forced to act` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -98,6 +119,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `Nope. Nostr is for Bitcoin bros only! Joking... Don't publish that. Nostr is for everyone, because everyone deserves the freedom to communicate. At this time, the portion of the population that recognizes the need for freedom of communication is also the same crowd that recognizes the need for freedom to transact. Someone has to be first to the socila media revolution and right now, it's those that recognize the need for decentralization and censorship resistant communication such as freedom fighters and Bitcoiners. Nostr doesn't need Bitcoin and Bitcoin doesn't need Nostr, but they do do have a beautiful symbiotic relationship together. `-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`There is a significant overlap between a want for decentralization and bitcoiners` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -107,6 +131,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 ` There are some getting started guides, but I don't know of any nostr wiki yet` -[hzrd149](https://github.com/hzrd149/)
 
 `There is a client called Wikifreedia, but there is no official Wiki. I've honestly thought about trying to create a Wiki for every client, then each client could link to the Wiki to have their users find help and support. I still think someone should build this. I don't have time. It's needed.`-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
+
+`No` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
 
 </details>
 
@@ -128,6 +155,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 `Joining is easy. Where we're failing at is on-boarding. Only two applicaitons have good onboarding - Damus and Primal. However, these applications are not good for businesses who often need to designate social media tasks to employees. They do not support Remote Signers or nsecbunkers. That aside, I would tell all of your community members to join nostr, follow one another, and start building your community by utilizing community tools such as Chachi, Flotilla, Zap.stream, or Nostr Nests.`-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
 
+`No one is focusing on onboarding, so tough luck` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
+
 </details>
 
 <details>
@@ -137,6 +167,9 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 ` There is no nostr development team, so there is no one to say what can or cant be done on the protocol. developers are free to build and experiment however they like` -[hzrd149](https://github.com/hzrd149/)
 
 `Nostr is not VC funded and is completely open. There is no central company. There is no central organization. There is no central development team. While some companies that utilize nostr may be VC funded, the protocol itself is not.`-[Derek Ross](https://njump.me/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424)
+
+`12 and 13. It doesn’t unless the users care, which doesn’t seem to be true, as we are already seeing happening with several Nostr apps` -[semisol](https://njump.me/npub12262qa4uhw7u8gdwlgmntqtv7aye8vdcmvszkqwgs0zchel6mz7s6cgrkj)
+
 
 </details>
    
