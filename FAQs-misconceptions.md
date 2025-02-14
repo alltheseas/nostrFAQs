@@ -226,7 +226,7 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 <summary>14. What is the difference between nostr and ActivityPub, Mastodon, Fediverse (via FOSDEM)? </summary>
 
-`ActivityPub, Mastodon, Fediverse social identity registration is tied to a server, and is considered an account. That is, the AP server admin can rugpull, ban, or censor said identity. On nostr, relay operators cannot singularly ban or rugpull an identity. Collusion between all (hundreds or thousands) of relay admins is extremely unlikely, if at all possible.` -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
+`ActivityPub, Mastodon, Fediverse social identity registration is tied to a server, and is considered an account. That is, the AP server admin can rugpull, ban, or censor said identity. On nostr, relay operators cannot singularly ban or rugpull an identity. While a relay admin can ban an npub from publishing on a relay, there are many other relays to choose from and write to. Collusion between all (hundreds or thousands) of relay admins is extremely unlikely, if at all possible.` -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
 
 
 
