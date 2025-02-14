@@ -221,4 +221,43 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 
 
 </details>
+
+<details>
+
+<summary>14. What is the difference between nostr and ActivityPub, Mastodon, Fediverse (via FOSDEM)? </summary>
+
+`ActivityPub, Mastodon, Fediverse social identity registration is tied to a server, and is considered an account. That is, the AP server admin can rugpull, ban, or censor said identity. On nostr, relay operators cannot singularly ban or rugpull an identity. Collusion between all (hundreds or thousands) of relay admins is extremely unlikely, if at all possible.` -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
+
+
+
+
+</details>
+
+<details>
+
+<summary>15. How can IOT developers add nostr to MQTT & Meshtastic integrations (via FOSDEM)? </summary>
+
+`See @ksedgwic work on noshtastic https://github.com/ksedgwic/noshtastic` -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
+
+
+
+
+
+</details>
+
+
+   <details>
+
+<summary>16. What is the current state of MLS on Nostr (via FOSDEM)? </summary>
+
+`answer` -[person](https://github.com/)
+
+
+
+
+
+</details>
+
+
+
     
