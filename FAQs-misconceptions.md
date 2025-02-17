@@ -240,3 +240,11 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `It works! As far as I'm aware, Nostr is the first truly decentralized implementation of MLS. I've been working to bring MLS messaging to Nostr for the last 9 months and have built a messaging client (called White Noise - https://github.com/erskingardner/whitenoise) and several libraries that will make it easier for other developers to implement MLS messaging into their own clients. Feel free to hit me up on Nostr to ask any questions.` -[JeffG](https://njump.me/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc)
 
 </details>
+
+  <details>
+
+<summary>17. Where can I listen to a nostr for devs talk? </summary>
+
+`FOSDEM talk by Constant` https://njump.me/nevent1qqspj60z02pr2suafcsdc6dqf4vsvxkg9pmg59x8sgu3v0z6t0ztftgpp4mhxue69uhkummn9ekx7mqpzamhxue69uhhyetvv9ujuurvv438xarj9e3k7mgpzfmhxue69uhk7enxvd5xz6tw9ec82cspr9mhxue69uhkummnw3ezu7n9vfjkget99e3kcmm4vst8au8y -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
+
+</details>
