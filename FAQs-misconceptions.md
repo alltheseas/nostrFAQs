@@ -248,3 +248,19 @@ The purpose of these questions is to anticipate dev and non-dev questions & push
 `FOSDEM talk by Constant` https://njump.me/nevent1qqspj60z02pr2suafcsdc6dqf4vsvxkg9pmg59x8sgu3v0z6t0ztftgpp4mhxue69uhkummn9ekx7mqpzamhxue69uhhyetvv9ujuurvv438xarj9e3k7mgpzfmhxue69uhk7enxvd5xz6tw9ec82cspr9mhxue69uhkummnw3ezu7n9vfjkget99e3kcmm4vst8au8y -[elsat](https://njump.me/npub1zafcms4xya5ap9zr7xxr0jlrtrattwlesytn2s42030lzu0dwlzqpd26k5)
 
 </details>
+
+<details>
+
+<summary>18. Enough words. Where do I start as a new to nostr dev? </summary>
+
+`Read nostr.com, read nip 01, install nostr-tools and work through the examples in the readme.` 
+https://nostr.com  
+
+https://github.com/nostr-protocol/nips/blob/master/01.md  
+
+https://github.com/nbd-wtf/nostr-tools  
+
+-[hodlbod](https://njump.me/npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn)
+
+</details>
+
